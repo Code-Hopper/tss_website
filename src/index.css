@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body{
+  margin: 0;padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --color1: #4E4FEB;
+  --color2: #9D91C6;
+  --color3: #F5EBFF;
+  --color4: #69BAA5;
+  --color5: #0089FE;
+  --color6: #FF424A;
+  --color7: #01011c;
+  --color8: #f3f1f5;
 }
