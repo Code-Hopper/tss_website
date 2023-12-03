@@ -32,7 +32,7 @@ const Heros = () => {
                                             />
                                         </span>
                                     </h2>
-                                    <p className='text-dark d-md-block'>
+                                    <p className='text-dark d-none d-md-block'>
                                         We are from | Nagpur 🍊
                                         <br />
                                         Based in Nagpur, our tech support company caters to businesses of all sizes,

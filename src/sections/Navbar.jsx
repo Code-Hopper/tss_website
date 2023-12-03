@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <>
       {/* main navbar */}
-      <div className={`navbar-main-2 container-fluid shadow sticky-lg-top ${isReduced ? 'navbar-reduced-height' : ''}`}>
+      <div className={`navbar-main-2 container-fluid shadow sticky-lg-top z-2 ${isReduced ? 'navbar-reduced-height' : ''}`}>
         <div className="">
           <nav className={`navbar navbar-expand-md navbar-dark ${isReduced ? 'navbar-reduced-height' : ''}`}>
 

@@ -7,6 +7,7 @@ import What from './What'
 import Sidebar from './Sidebar'
 
 import "./style.css"
+import Testimonials from './Testimonials'
 
 const Landing_Page = () => {
     return (
@@ -15,6 +16,7 @@ const Landing_Page = () => {
             <Sidebar />
             <Heros />
             <What />
+            <Testimonials />
         </>
     )
 }

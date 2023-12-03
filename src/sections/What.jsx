@@ -37,12 +37,48 @@ let ServiceCard = (props) => {
             <div className='col-md-4 col-lg-3 col-12'>
                 {/* Your service card content */}
                 <div className='card service-card shadow'>
+
                     <div className='row'>
                         <div className='card-body d-flex align-items-center gap-3'>
                             <i className={`${props.services_icon} fa-2x`}></i>
                             <div className='d-flex flex-column'>
                                 <span className='fw-bold fs-4'>{props.services_name}</span>
                                 <span className='text-danger fw-semibold'>{props.service_cat}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* <!-- Button trigger modal --> */}
+                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target={`#bookModel-${props.services_name.replace(/\s/g, '')}`}>
+                    Book An Appointment
+                </button>
+                {/* <!-- Modal --> */}
+                <div className="modal fade " id={`bookModel-${props.services_name.replace(/\s/g, '')}`} data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                    <div className="modal-dialog">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h1 className="modal-title fs-5" id="staticBackdropLabel">
+                                    Please Provide us few details
+                                    <br />
+                                    <h2>Instant <span className='text-danger'> Solution </span></h2>
+                                </h1>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div className="modal-body">
+                                <div className='p-2 d-flex flex-column gap-3'>
+                                    <input className='form-control' type="text" name='c_name' placeholder='Enter Your Name' required />
+                                    <input className='form-control' type="tel" name='c_name' placeholder='Enter Your Contact' required />
+                                    <div className='d-flex'>
+                                        <input className='form-control' type="date" />
+                                        <input className='form-control' type="time" />
+                                    </div>
+                                    <input className='form-control' type="tel" name='c_name' placeholder={props.services_name} required disabled />
+                                    <textarea className='form-control' placeholder='Message' name="" id="" cols="30" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" className="btn btn-primary">Book</button>
                             </div>
                         </div>
                     </div>
@@ -105,7 +141,7 @@ const What = () => {
                 </div>
                 {/* services */}
                 <div className='container my-4'>
-                    <h4 className='text-center help-text fw-bolder my-5'>We Can <span className='text-danger'>Help You With</span></h4>
+                    <h2 className='text-center help-text fw-bolder my-5'>We Can <span className='text-danger'>Help You With</span></h2>
                     <div className={`services-card-collection ${showServices ? 'show' : ''}`}>
                         <div className='row gy-3'>
                             {filteredServices.map((service, index) => (
