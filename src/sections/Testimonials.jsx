@@ -8,7 +8,6 @@ const Testimonials = () => {
             <div className='container-fluid'>
                 <div className='container testimonials'>
                     <h2 className='text-center help-text fw-bolder my-5'>Our <span className='text-danger'>Testimonials</span></h2>
-
                     <div className='row'>
                         <div className="col testimonials-img">
                             <img src={img1} alt="" />
