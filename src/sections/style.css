@@ -564,14 +564,14 @@ a.nav-link:hover::before {
 /* testimonials */
 
 
-.testimonials-img img{
+.testimonials-img img {
     width: 100%;
     object-fit: contain;
 }
 
 /* reviews */
 
-.main-contact-form input{
+.main-contact-form input {
     background: transparent;
     border: none;
     border-bottom: 2px solid white;
@@ -581,11 +581,24 @@ a.nav-link:hover::before {
 }
 
 
-.main-contact-form input:focus{
+.main-contact-form input:focus {
     background: transparent;
     outline: none !important;
 }
 
-.main-contact-form input::placeholder{
+.main-contact-form input::placeholder {
     color: rgba(255, 255, 255, 0.7);
+}
+
+/* footer */
+
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-details li{
+    font-size: 1.2em;
 }

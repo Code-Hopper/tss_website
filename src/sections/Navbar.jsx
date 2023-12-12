@@ -53,7 +53,7 @@ const Navbar = () => {
                 <ul className="navbar-nav">
                   <li className="nav-items"><Link className="nav-link" to="/">Home</Link></li>
                   <li className="nav-items"><Link className="nav-link" to="/about">About</Link></li>
-                  <li className="nav-items"><Link className="nav-link" to="/projects">Projects</Link></li>
+                  <li className="nav-items"><Link className="nav-link" to="/services">Services</Link></li>
 
                   <li className="nav-items"><Link className="nav-link menu-items-custom" to="/testimonials">Testimonials</Link></li>
 
