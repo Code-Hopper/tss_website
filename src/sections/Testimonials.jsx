@@ -17,6 +17,7 @@ const Testimonials = () => {
                             <p className='fs-4'>24/7 service provided all-over the nagpur !</p>
                             <p className='fw-bold'>
                                 One Contact <span className='text-danger fw-bolder'> for all your need ! </span>
+                                Simplify your experience with Tech Sync Solution – a single point of contact for troubleshooting, installations, and consultations, ensuring optimal convenience.
                             </p>
                             <div className=''>
                                 <div className="business-id">
@@ -26,7 +27,7 @@ const Testimonials = () => {
                                         </div>
                                         <span className='text-danger fw-bold'>Easy Guide</span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi architecto illum quam sint rerum. Corporis nemo modi eaque autem eos, magni </p>
+                                    <p>Navigate computer complexities effortlessly with our comprehensive guides, providing clear and concise instructions for smooth operations.</p>
                                 </div>
                                 <div className="business-id">
                                     <div className='d-flex align-items-center gap-3'>
@@ -35,7 +36,7 @@ const Testimonials = () => {
                                         </div>
                                         <span className='text-danger fw-bold'>Remote Solution</span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi architecto illum quam sint rerum. Corporis nemo modi eaque autem eos, magni </p>
+                                    <p>Stay connected with cutting-edge remote solutions, ensuring seamless access and support for your computer hardware and networking requirements.</p>
                                 </div>
                                 <div className="business-id">
                                     <div className='d-flex align-items-center gap-3'>
@@ -44,7 +45,7 @@ const Testimonials = () => {
                                         </div>
                                         <span className='text-danger fw-bold'>Instant Support</span>
                                     </div>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi architecto illum quam sint rerum. Corporis nemo modi eaque autem eos, magni </p>
+                                    <p>Receive immediate assistance through our instant support services, addressing issues promptly for a hassle-free technology experience. </p>
                                 </div>
                             </div>
                         </div>
